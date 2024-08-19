@@ -43,6 +43,12 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    /* Animação para a transição de largura(width)
+     e altura(height)*/
+    transition: width .3s, height .3s;
+    /* PAra suavizar a animação*/
+    transition-timing-function: ease; 
 }
 
 section#login > div#imagem {
