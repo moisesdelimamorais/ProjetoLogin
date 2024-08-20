@@ -28,7 +28,7 @@ Grandes Telas: acima de 1200px
         float: right;
         width: 70%;
     }
-    /* na media query para tablets */
+    /* na media query para tablets 
     form > input[type=submit] {
         float: right;
         width: 70%;
@@ -37,7 +37,9 @@ Grandes Telas: acima de 1200px
     form > a.botao {
         float: right;
         width: 70%;
-    }
+    }*/
+
+
 }
 
 /* Para telas maiores - desktop e grandes */
@@ -60,7 +62,7 @@ Grandes Telas: acima de 1200px
         float: left;
         width: 50%;
     }
-
+/*
     div#formulario > h1 {
         font-size: 2em;
     }
@@ -69,7 +71,7 @@ Grandes Telas: acima de 1200px
         font-size: 1.2em;
     }
 
-    /* na media query para telas grandes: */
+     na media query para telas grandes:
     form > input[type=submit] {
         width: 49%;
     }
@@ -77,6 +79,5 @@ Grandes Telas: acima de 1200px
     form > a.botao {
         width: 49%;
     }
-
-
+*/
 }
