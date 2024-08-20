@@ -28,9 +28,20 @@ Grandes Telas: acima de 1200px
         float: right;
         width: 70%;
     }
+    /* na media query para tablets */
+    form > input[type=submit] {
+        float: right;
+        width: 70%;
+    }
+
+    form > a.botao {
+        float: right;
+        width: 70%;
+    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+/* Para telas maiores - desktop e grandes */
+@media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }    
@@ -40,13 +51,32 @@ Grandes Telas: acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
-    }   
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
+    /* na media query para telas grandes: */
+    form > input[type=submit] {
+        width: 49%;
+    }
+
+    form > a.botao {
+        width: 49%;
+    }
+
+
 }
