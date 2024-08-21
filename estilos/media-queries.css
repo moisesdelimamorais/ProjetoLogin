@@ -28,6 +28,7 @@ Grandes Telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
     /* na media query para tablets 
     form > input[type=submit] {
         float: right;
@@ -38,8 +39,6 @@ Grandes Telas: acima de 1200px
         float: right;
         width: 70%;
     }*/
-
-
 }
 
 /* Para telas maiores - desktop e grandes */
